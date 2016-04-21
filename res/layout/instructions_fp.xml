@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgBlue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/free_play"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textYellow"
+        android:background="@drawable/border"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_weight="1.55"
+        android:gravity="center"
+        android:text="@string/fp_instructions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textYellow" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="returnToMain"
+        android:text="Return to Home"
+        android:textColor="@color/textYellow" />
+
+</LinearLayout>

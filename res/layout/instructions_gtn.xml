@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bgBlue">
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Guess the Number!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/border"
+        android:textColor="@color/textYellow"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@string/gtn_instructions"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/textYellow"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="returnToMain"
+        android:textColor="@color/textYellow"
+        android:text="Return to Home" />
+
+</LinearLayout>

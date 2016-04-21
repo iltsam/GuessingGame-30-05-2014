@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/bgBlue">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textYellow"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:text="Settings!"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+	<RadioGroup 
+	    android:id="@+id/radGroup"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/textYellow"
+	        android:textSize="25sp"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:text="Game Range"/>
+	    
+	    <RadioButton
+	        android:id="@+id/low"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/textYellow"
+	        android:textSize="25sp"
+	        android:text="1 - 10"
+	        android:checked="true"
+	         />
+	
+	    <RadioButton
+	        android:id="@+id/med"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/textYellow"
+	        android:textSize="25sp"
+	        android:text="1 - 20" />
+	
+	    <RadioButton
+	        android:id="@+id/high"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/textYellow"
+	        android:textSize="25sp"
+	        android:text="1 - 50" />
+
+	    <RadioButton
+	        android:id="@+id/custom"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/textYellow"
+	        android:textSize="25sp"
+	        android:text="Custom range!" />
+	</RadioGroup>
+
+	<TableRow
+	    android:id="@+id/tableRow1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/border" >
+
+		<EditText
+		    android:id="@+id/minEdit"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:background="@drawable/border"
+		    android:ems="3"
+		    android:gravity="center"
+		    android:inputType="numberDecimal"
+		    android:text="Min" />
+
+		<TextView
+		    android:id="@+id/textView2"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:textColor="@color/textYellow"
+		    android:textSize="20sp"
+		    android:gravity="center"
+		    android:text="Any number from 1 - 20"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</TableRow>
+
+	<TableRow
+	    android:id="@+id/tableRow2"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/border" >
+
+		<EditText
+		    android:id="@+id/maxEdit"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent"
+		    android:background="@drawable/border"
+		    android:ems="3"
+		    android:gravity="center"
+		    android:inputType="numberDecimal"
+		    android:text="Max" >
+	
+		</EditText>
+
+		<TextView
+		    android:id="@+id/textView3"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:textColor="@color/textYellow"
+		    android:text="Any number higher than the minimum upto 100"
+		    android:textSize="20sp"
+		    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	</TableRow>
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:onClick="setSettings"
+	    android:text="Save Settings!"
+	    android:textColor="@color/textYellow" />
+
+</LinearLayout>

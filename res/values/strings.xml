@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GuessingGame</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="highscores_">Highscores!</string>
+    <string name="instructions_">Instructions!</string>
+    <string name="play_game_">Play Game!</string>
+    <string name="title_activity_instructions">Instructions</string>
+    <string name="free_play_">Free Play!</string>
+    <string name="instructions">Instructions</string>
+    <string name="choose_a_number_">Choose a Number!</string>
+    <string name="gtn_instructions">Pay careful attention to each card because you can only see them once. \n
+        							At the bottom of each card will be a \'yes\' or \'no\'.\n
+     								If there is a \'Yes\' on the card, that means that the computers number is on that card\n
+     								If there is a \'No\' on the card, that means that the computers number is not on that card.</string>
+    <string name="can_instructions">Choose a number within the range and remember it in your head.\n
+        							Click the play button to start the game.\n
+        							Once the game the has started click the \'Yes\' button if you see your number on the card.\n
+        							Once you have made all the selections the computer will try to guess your number!</string>
+    <string name="fp_instructions">Free play does not give you any points towards your highscores.\n
+        							It doesn\'t give you any \'Yes\' or \'No\' prompts.\n
+        							It just allows you to play with your friends, by browsing freely through the cards</string>
+    <string name="free_play">Free Play</string>
+    <string name="title_activity_highscores">HighscoresActivity</string>
+    <string name="title_activity_play">PlayActivity</string>
+
+</resources>

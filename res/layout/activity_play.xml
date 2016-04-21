@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgBlue"
+    tools:context="au.edu.jcu.it.guessinggame.PlayActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/textYellow"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:text="Guess the Number!"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/textYellow"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:text="Choose a Number"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/textYellow"
+        android:textSize="44sp"
+        android:textStyle="bold"
+        android:text="Free Play"
+        android:onClick="buttonHandler" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:textColor="@color/textYellow"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="Settings"
+        android:onClick="buttonHandler" />
+    
+</LinearLayout>
